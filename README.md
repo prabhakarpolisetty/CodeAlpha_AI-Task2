@@ -1,20 +1,79 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+## 📌 Task 2: Chatbot for FAQs
 
-# Run and deploy your AI Studio app
+This project is a **FAQ Chatbot Website** developed to provide quick and accurate responses to user queries based on a predefined set of Frequently Asked Questions (FAQs). The chatbot uses **Natural Language Processing (NLP)** techniques to understand user input, match it with the most relevant FAQ, and display the best possible answer.
 
-This contains everything you need to run your app locally.
+The system preprocesses the text using NLP libraries such as **NLTK** and **spaCy**, and applies similarity matching techniques like **Cosine Similarity** or **Intent Matching** to identify the most suitable response.
 
-View your app in AI Studio: https://ai.studio/apps/37aadcd5-6afb-45cd-99fd-f404722bf8c1
+---
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  Node.js
+✅ FAQ collection and management  
+✅ Text preprocessing using NLP  
+✅ Tokenization and text cleaning  
+✅ User query matching with FAQs  
+✅ Best matching response generation  
+✅ Simple chatbot interface for user interaction  
+✅ Fast and user-friendly response system  
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Technologies Used
+
+### Frontend
+- HTML  
+- CSS  
+- JavaScript  
+
+### Backend
+- Python  
+- Flask / Django (if applicable)  
+
+### NLP Libraries
+- NLTK  
+- spaCy  
+- Scikit-learn  
+
+### Techniques Used
+- Tokenization  
+- Text Cleaning  
+- Cosine Similarity  
+- Intent Matching  
+- FAQ Retrieval System  
+
+---
+
+## ⚙️ Working Process
+
+### Step 1:
+Collect FAQs related to a specific topic or product.
+
+### Step 2:
+Preprocess the text using NLP libraries like NLTK or spaCy.
+
+### Step 3:
+Clean, tokenize, and prepare the FAQ dataset.
+
+### Step 4:
+Match user questions with the most similar FAQ using similarity techniques.
+
+### Step 5:
+Display the best matching answer as the chatbot response.
+
+### Step 6:
+(Optional) Provide a simple chatbot UI for better user interaction.
+
+---
+
+## 🎯 Objective
+
+The main objective of this project is to build an intelligent FAQ chatbot that provides quick, accurate, and automated responses to user queries, improving user experience and reducing manual support effort.
+
+---
+
+## 📷 Project Preview
+
+(Add your chatbot website screenshot here)
+
+```md
+![Project Screenshot](your-image-link-here)
