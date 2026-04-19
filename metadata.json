@@ -1,0 +1,8 @@
+{
+  "name": "FAQ Chatbot",
+  "description": "An AI-powered FAQ chatbot that matches user questions to the best available answers using semantic similarity.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": []
+}
